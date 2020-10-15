@@ -1,0 +1,46 @@
+Data: "Representasi Fakta di dunia nyata"
+DBMS(DataBase Management Software): MySQL, Oracle, PostreSQL, MongoDB
+- Relational DBMS
+- Hierarchical DBMS
+- Network DBMS
+- NoSQL DBMS
+
+SQL: Bahasa yang digunakan untuk melakukan interaksi pada database
+
+Primary Key: "Sebuah data, yang dapat memresentasikan satu baris record secara unik"
+
+istilah database:
+- Field/Coloum(Horizontal)
+- Row/Baris(Vertikal)
+- Key/Kunci:
+	- Primary Key(bersifat unik)
+	- Foreign Key(atribut yang melengkapi hubungan menuju ke induk)
+	- Candidate Key(Sebagai indentifikasi unik untuk kejadian spesifik dari entitas)
+	- 
+- Auto Increment
+- Relationship(Hubungan Antar Tabel)
+- Normalization(Proses membuat database secara normal)
+
+Studi Kasus 1:
+database: phpdasar
+tabel: mahasiswa
+
+id int, primary key, auto_increment
+nama varchar(100)
+nrp varchar(10)
+email varchar(100)
+jurusan varchar(100)
+gambar varchar(100)
+
+Perintah pada MySQL:
+mysql -u root -p: untuk masuk sebagai root
+show databases; : untuk menampilkan semua database
+create database NAMADATABASE; : untuk membuat database
+use NAMADATABASE; : untuk masuk ke database secara spesifik
+create table NAMATABEL(isi dari table); : untuk membuat tabel
+show tables; : untuk menampilkan tabel
+describe NAMADATABASE; : untuk menampilkan isi tabel
+insert into NAMADATABASE value (sesuaikan isi dari table); : untuk menambahkan isi kedalam tabel
+select * from NAMADATABASE; : untuk menampilkan isi dari table
+drop table NAMADATABASE; : untuk menghapus table
+drop database NAMADATABASE; : untuk menghapus database
