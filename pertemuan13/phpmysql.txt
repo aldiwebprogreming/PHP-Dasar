@@ -1,0 +1,4 @@
+Cara menghubungkan php dan mysql:
+Ekstensi MySQL
+Ekstensi MySQLi (Rekomendasi)
+PDO (PHP Data Object)
