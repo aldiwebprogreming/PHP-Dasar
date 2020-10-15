@@ -1,0 +1,11 @@
+Cookie: informasi yang disimpan di browser.
+Cookie bisa digunakan untuk:
+- Mengenali user
+- Untuk Fitur Shooping Cart / Keranjang belanja
+- Personalisasi
+- Fitur Remenber Me
+
+Karena disimpan dibrowser.. ini bisa jadi kelemahan pada sebuah website\
+
+$_COOKIE: untuk mengakses nilai cookie
+setcookie();

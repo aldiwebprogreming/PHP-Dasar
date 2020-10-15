@@ -1,0 +1,6 @@
+Session: Mekanisme penyimpanan informasi ke dalam variabel agar bisa digunakan di lebih dari satu halaman. Informasi session disimpan dalam server, session dan cookie harus bersamaan
+
+session: $_SESSION
+
+syarat:
+harus menjalankan sebuah function session_start();
